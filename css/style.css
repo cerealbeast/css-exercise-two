@@ -1,6 +1,11 @@
 body {
-  background-color: #ff0000;
+  background-color: #ff000;
   color: #0000FF;
+  font-size: 16px;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
 }
 
 nav {
@@ -49,4 +54,16 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+h1 {
+  font-size: 2em; /* 32px */
+  line-height: 1.5;
+  line-height: 75%;
+  line-height: 2em;
+  line-height: normal;
+}
+
+p {
+  font-size: 100%; /* 16px */
 }
