@@ -1,15 +1,17 @@
 body {
-  background-color: #ff000;
+  background-color: #FFFFFF;
   color: #0000FF;
   font-size: 16px;
 }
 
-a:hover, a:visited, a:link, a:active {
-    text-decoration: none;
+a {
+  color: blue;
+  font-family: helvetica;
+  text-decoration: none;
 }
 
-.figcaption {
-  text-color: #616188;
+a:hover {
+  text-decoration: underline;
 }
 
 .author {
@@ -79,5 +81,10 @@ h3 {
 
 p {
   color: #616188;
-  font-size: 100%; /* 16px */
+  font-size: 100%;
+  padding: 1em/* 16px */
+}
+
+c {
+  color: #616188;
 }
